@@ -436,8 +436,7 @@ void editBook(Bookstore &store) {
 
 void saveAndExit(Bookstore &store) {
     store.saveUsersToFile();
-    // Save the updated catalog to a file (if needed)
-    // ...
+   
 
     cout << "Saving data and exiting the program.\n";
 }
